@@ -64,10 +64,25 @@
       "configurable": false
     },
     "fav": {
-      "displayName": "fav",
-      "type": "component",
-      "repeatable": true,
-      "component": "fav.fav"
+      "type": "json"
+    },
+    "preferences": {
+      "type": "json"
+    },
+    "frequency": {
+      "type": "integer"
+    },
+    "beginningNotification": {
+      "type": "integer"
+    },
+    "stopNotification": {
+      "type": "integer"
+    },
+    "isAdmin": {
+      "type": "boolean"
+    },
+    "name": {
+      "type": "string"
     }
   }
 }
