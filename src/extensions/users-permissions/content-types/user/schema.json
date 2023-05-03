@@ -83,6 +83,12 @@
     },
     "name": {
       "type": "string"
+    },
+    "images": {
+      "displayName": "images",
+      "type": "component",
+      "repeatable": true,
+      "component": "images.images"
     }
   }
 }
