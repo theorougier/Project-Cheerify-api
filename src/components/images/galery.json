@@ -1,19 +1,21 @@
 {
   "collectionName": "components_images_galeries",
   "info": {
-    "displayName": "Galery"
+    "displayName": "Galery",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Picture": {
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

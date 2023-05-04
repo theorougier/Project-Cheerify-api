@@ -63,32 +63,20 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "fav": {
-      "type": "json"
-    },
-    "preferences": {
-      "type": "json"
-    },
-    "frequency": {
-      "type": "integer"
-    },
-    "beginningNotification": {
-      "type": "integer"
-    },
-    "stopNotification": {
-      "type": "integer"
-    },
     "isAdmin": {
       "type": "boolean"
     },
     "name": {
       "type": "string"
     },
-    "Galery": {
+    "galery": {
       "displayName": "Galery",
       "type": "component",
       "repeatable": true,
       "component": "images.galery"
+    },
+    "test": {
+      "type": "string"
     }
   }
 }
