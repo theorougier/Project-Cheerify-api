@@ -84,11 +84,11 @@
     "name": {
       "type": "string"
     },
-    "images": {
-      "displayName": "images",
+    "Galery": {
+      "displayName": "Galery",
       "type": "component",
       "repeatable": true,
-      "component": "images.images"
+      "component": "images.galery"
     }
   }
 }
